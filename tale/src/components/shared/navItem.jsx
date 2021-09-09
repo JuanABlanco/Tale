@@ -5,7 +5,7 @@ const NavItem = ({ href, isActive, children }) => {
         <li>
           <a
             href={href}
-            className={`block px-4 py-2 rounded-md ${isActive ? 'bg-red-100 text-amber-700' : ''}`}
+            className={`block px-4 py-2 rounded-2xl text-gray-50 object-contain hover:border ${isActive ? 'border-2 ' : ''} `}
           >
             {children}
           </a>
